@@ -1,0 +1,38 @@
+body{
+    background-image: url(Fotos/Undertaleballte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header__nav{
+    display: block;
+}
+.header__nav-ul{
+    margin: 20px;
+}
+.header__nav-ul-li{
+    display: inline-block;
+}
+.header__nav-ul-li-a{
+    line-height: 3;
+    padding: 15px;
+    border: 2px solid #000000;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #fff8f8;
+}
+.header__nav-ul-li-a:hover{
+    transition: .8s all;
+    box-shadow: 0 0 10px #000000, 0 0 20px #070707;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+}
+.header__img{
+    filter: drop-shadow(0 0 5px #000000);
+}
